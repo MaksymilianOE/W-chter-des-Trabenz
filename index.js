@@ -56,3 +56,6 @@ client.on(Events.InteractionCreate, async interaction => {
 });
 
 client.login(process.env.BOTTOKEN);
+
+
+module.exports = { client };
